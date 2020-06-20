@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+// this line tells angular to look into app.module.ts
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
